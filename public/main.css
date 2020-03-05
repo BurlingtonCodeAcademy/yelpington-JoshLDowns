@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Monoton&display=swap');
+
+body {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#title {
+    width: auto;
+    height: 20vh;
+    min-height: 100px;
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    font-family: monoton;
+    color: white;
+    font-size: 4.1rem;
+    margin: auto;
+    padding-top: 1vh;
+}
+
+#main-container {
+    display: flex;
+    margin: 0 auto 0 auto;
+}
+
+#restaurant-list {
+    width: 20vw;
+    height: 40vw;
+    min-height: 250px;
+    min-width: 125px;
+    overflow: hidden;
+    background-color: rgb(175, 175, 175);
+}
+
+.scroll {
+    overflow: auto;
+    width: Calc(20vw + 20px);
+    height: 40vw;
+}
+
+.rest-list-item {
+    font-family: fredoka one;
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 1rem;
+    border-bottom: 2.5px solid rgb(65, 65, 65);
+}
+
+.rest-list-item:hover {
+    cursor: crosshair;
+    background-color: lightslategray;
+}
+
+#map {
+    height: 40vw;
+    width: 40vw;
+    min-width: 250px;
+    min-height: 250px;
+}
+
+#footer {
+    width: auto;
+    height: 30vh;
+    min-height: 150px;
+    background-color: lightblue;
+}
+
+@media (max-width: 768px) {
+    
+    #title {
+        width: auto;
+        height: 12vh;
+        min-height: 100px;
+        background-color: black;
+    }
+    
+    h1 {
+        font-family: monoton;
+        font-size: 12vw;
+        color: white;
+        margin: auto;
+        padding-top: 1.75vh;
+    }
+
+    #main-container {
+        margin: 0;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #restaurant-list {
+        width: auto;
+        height: 20vh;
+        min-height: 150px;
+        overflow: hidden;
+        background-color: rgb(175, 175, 175);
+    }
+
+    .scroll {
+        overflow: auto;
+        width: Calc(100vw + 20px);
+        height: 20vw;
+        min-height: 150px;
+    }
+
+    .rest-list-item {
+        font-family: fredoka one;
+        font-size: 1rem;
+        margin: 0;
+        padding: 1rem;
+        border-bottom: 2.5px solid rgb(65, 65, 65);
+    }
+    
+    #map {
+        height: 100vw;
+        width: 100vw;
+        max-width: 500px;
+        max-height: 500px;
+        margin: 0 auto 0 auto;
+    }
+    
+    #footer {
+        width: auto;
+        height: 20vh;
+        background-color: lightblue;
+    }
+
+}
