@@ -10,44 +10,32 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(myMap);
 
 let restList = document.getElementById('rest-scroll');
+let markers = {}
 
 
-
-function buildMapItems () {
-    fetch('https://json-server.burlingtoncodeacademy.now.sh/restaurants').then((data)=>{
-    return data.json()
-}).then((objectArray)=>{
-
-    objectArray.forEach((object)=>{
-        restList.innerHTML += `<p class="rest-list-item">${object.name}</p>`
-        placeMarker(object.address);
+function buildMapItems() {
+    fetch('rest-list.json').then((data) => {
+        return data.json()
+    }).then((objectArray) => {
+        objectArray.forEach((object) => {
+            restList.innerHTML += `<p id="${object.id}" class="rest-list-item">${object.name}</p><div class='rest-list-hidden'><p>${object.category}</p><p>Price: ${object.price}</p><p>Phone: ${object.phone}<p><a class= 'inner-link-text' href='rest-page/${object.id}'>Learn More!</a></div>`
+            let currentMarker = L.marker(JSON.parse(object.coords)).addTo(myMap);
+            markers[object.id] = currentMarker;
+            currentMarker.bindPopup(`<p class = "popup-text" style = "margin: .5px; text-align: center; background-color: white;">${object.name}</br>${object.address}</p>`)
+        })
+        return objectArray;
+    }).then(() => {
+        let scrollDivs = Array.from(document.getElementsByClassName('rest-list-item'));
+        scrollDivs.forEach((element) => {
+            element.addEventListener('click', () => {
+                let visibleDivs = Array.from(document.getElementsByClassName('rest-list-visible'));
+                visibleDivs.forEach((div) => { div.className = 'rest-list-hidden' })
+                let currentId = event.target.id;
+                let sibling = document.getElementById(currentId).nextElementSibling;
+                sibling.className = 'rest-list-visible';
+                sibling.scrollIntoView({behavior: 'smooth', block: 'center'});
+                markers[currentId].fire('click');
+            })
+        })
     })
-
-})
 }
-
-function placeMarker(address) {
-
-    fetch(`https://nominatim.openstreetmap.org/search/?q=${address}&format=json`)
-         .then(res => {
-             return res.json()})
-         .then(jsonObj => {
-             let lat = jsonObj[0].lat
-             let lon = jsonObj[0].lon
-             L.marker([lat, lon]).addTo(myMap);
-         })
- }
-
-
-
-
-
-
-
-
- let popup = L.popup();
-function onMapClick(event) {
-    popup.setLatLng(event.latlng).setContent("You clicked the map at: " + event.latlng.toString()).openOn(myMap);
-}
-
-myMap.on('click', onMapClick);

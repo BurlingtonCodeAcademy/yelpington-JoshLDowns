@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Monoton&display=swap');
 
+html {
+    background: url(images/desktop-bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+    z-index: 0;
+}
+
 body {
     height: auto;
     width: auto;
@@ -24,24 +34,48 @@ h1 {
     padding-top: 1vh;
 }
 
+h2 {
+    font-family: monoton;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
 #main-container {
     display: flex;
     margin: 0 auto 0 auto;
 }
 
 #restaurant-list {
+    position: relative;
     width: 20vw;
     height: 40vw;
-    min-height: 250px;
+    min-height: 350px;
     min-width: 125px;
     overflow: hidden;
     background-color: rgb(175, 175, 175);
+}
+
+#list-fade {
+    pointer-events: none;
+    width: 20vw;
+    height: 50px;
+    min-width: 125px;
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(
+        rgba(0,0,0,0),
+        rgba(0,0,0,.3),
+        rgba(0,0,0)
+    )  
 }
 
 .scroll {
     overflow: auto;
     width: Calc(20vw + 20px);
     height: 40vw;
+    min-height: 350px;
 }
 
 .rest-list-item {
@@ -52,45 +86,122 @@ h1 {
     border-bottom: 2.5px solid rgb(65, 65, 65);
 }
 
+.rest-list-hidden {
+    display: none;
+}
+
+.rest-list-visible {
+    background-color: whitesmoke;
+    font-family: fredoka one;
+    font-size: .75rem;
+    margin: 0;
+    padding: .25rem;
+    border-bottom: 2.5px solid rgb(65, 65, 65);
+}
+
 .rest-list-item:hover {
+    color: rgb(0, 105, 240);
     cursor: crosshair;
-    background-color: lightslategray;
+    background-color: whitesmoke;
 }
 
 #map {
     height: 40vw;
     width: 40vw;
-    min-width: 250px;
-    min-height: 250px;
+    min-width: 350px;
+    min-height: 350px;
+}
+
+.leaflet-popup-content-wrapper {
+    border: 2px solid  rgb(175, 175, 175);
+    font-family: fredoka one;
+    font-size: .75rem;
+}
+
+.popup-text:hover {
+    color: rgb(0, 105, 240);
+    cursor: crosshair;
 }
 
 #footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     width: auto;
     height: 30vh;
     min-height: 150px;
-    background-color: lightblue;
+    background-color: black;
+    padding-top: 5px;
+    border-top: 5px double white;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    min-width: 450px;
+}
+
+.footer-image {
+    width: 15%;
+    height: auto;
+}
+
+#mail-list {
+    display: flex;
+    justify-content: space-around;
+    width: 55vw;
+    min-width: 475px;
+    color: white;
+    font-family: fredoka one;
+}
+
+#main-email {
+    background-color: whitesmoke;
+    font-family: fredoka one;
+    width: 25vw;
 }
 
 @media (max-width: 768px) {
+
+    html {
+        background: url(images/desktop-bg.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 100%;
+        z-index: 0;
+    }
     
     #title {
         width: auto;
-        height: 12vh;
-        min-height: 100px;
+        height: 10vh;
+        min-height: 75px;
+        min-width: 350px;
         background-color: black;
     }
     
     h1 {
         font-family: monoton;
-        font-size: 12vw;
+        font-size: 6vh;
         color: white;
         margin: auto;
-        padding-top: 1.75vh;
+        padding-top: 1vh;
+    }
+
+    h2 {
+        font-family: monoton;
+        color: white;
+        padding: 0;
+        margin: 0;
     }
 
     #main-container {
         margin: 0;
         width: auto;
+        min-width: 350px;
         display: flex;
         flex-direction: column;
     }
@@ -101,6 +212,21 @@ h1 {
         min-height: 150px;
         overflow: hidden;
         background-color: rgb(175, 175, 175);
+        text-align: center;
+    }
+
+    #list-fade {
+        pointer-events: none;
+        width: 100%;
+        height: 25px;
+        z-index: 5;
+        position: absolute;
+        bottom: 0;
+        background: linear-gradient(
+            rgba(0,0,0,0),
+            rgba(0,0,0,.3),
+            rgba(0,0,0)
+        )  
     }
 
     .scroll {
@@ -111,10 +237,25 @@ h1 {
     }
 
     .rest-list-item {
+        width: 100vw;
         font-family: fredoka one;
         font-size: 1rem;
         margin: 0;
-        padding: 1rem;
+        padding: 1rem 0 1rem 0;
+        border-bottom: 2.5px solid rgb(65, 65, 65);
+    }
+
+    .rest-list-hidden {
+        display: none;
+    }
+    
+    .rest-list-visible {
+        width: 100vw;
+        background-color: whitesmoke;
+        font-family: fredoka one;
+        font-size: .75rem;
+        margin: 0;
+        padding: .25rem 0 .25rem 0;
         border-bottom: 2.5px solid rgb(65, 65, 65);
     }
     
@@ -127,9 +268,43 @@ h1 {
     }
     
     #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
         width: auto;
-        height: 20vh;
-        background-color: lightblue;
+        min-width: 350px;
+        height: 22.5vh;
+        background-color: black;
+        border-top: 5px double white;
     }
 
+    #footer-links {
+        display: flex;
+        justify-content: space-between;
+        min-width: 300px;
+        width: 90vw;
+    }
+    
+    .footer-image {
+        width: 12.5%;
+        height: auto;
+    }
+
+    #mail-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 60px;
+        min-width: 300px;
+        width: 90vw;
+        color: white;
+        font-family: fredoka one;
+    }
+
+    #main-email {
+        background-color: whitesmoke;
+        font-family: fredoka one;
+        width: 80vw;
+    }
 }

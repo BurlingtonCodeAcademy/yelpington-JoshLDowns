@@ -5,8 +5,8 @@ const port = process.env.PORT || 5000;
 
 app.use(express.static('public'));
 
-// app.get('/post/:id', (req, res) => {
-//     res.sendFile(path.resolve(`public/post.html`));
-// })
+app.get('/rest-page/:id', (req, res) => {
+    res.sendFile(path.resolve(`public/rest-page.html`));
+})
 
 app.listen(port, ()=> console.log(`Example app listening on port: ${port}`))
