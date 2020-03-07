@@ -14,7 +14,7 @@ let markers = {}
 
 
 function buildMapItems() {
-    fetch('rest-list.json').then((data) => {
+    fetch('resources/api/rest-list.json').then((data) => {
         return data.json()
     }).then((objectArray) => {
         objectArray.forEach((object) => {

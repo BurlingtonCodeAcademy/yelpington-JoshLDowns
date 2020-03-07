@@ -2,7 +2,7 @@ let id = window.location.href.slice(window.location.href.lastIndexOf('/')+1);
 
 
 function buildMap() {
-    fetch(`rest-list/${id}`).then((data)=>{
+    fetch(`resources/api/${id}`).then((data)=>{
         return data.json()
     }).then((object)=>{
         console.log(object);
