@@ -1,0 +1,14 @@
+{
+    "id": "city-market",
+    "name": "City Market",
+    "address": "82 S Winooski Ave. Burlington, VT 05401",
+    "coords": "[44.4780993, -73.2127485]",
+    "category": "Grocery Store",
+    "price": "$-$$$",
+    "phone": "861-9700",
+    "website": "http://www.citymarket.coop",
+    "hours": "7AM-11PM Everyday",
+    "notes": [
+        "Delicious salad bar, prepared hot and cold foods, plus sandwiches."
+    ]
+}

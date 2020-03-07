@@ -1,0 +1,15 @@
+{
+    "id": "fu-da",
+    "name": "Fu Da Chinese Restaurant",
+    "address": "187 Pearl St. #1, Burlington, VT 05401",
+    "coords": "[44.4803494,-73.2137241]",
+    "category": "Chinese, Take-Out",
+    "price": "$",
+    "phone": "802-864-3883",
+    "website": "https://www.fudaburlington.com",
+    "hours": "Sunday: 12:00pm to 10:30pm, Monday-Tuesday & Thursday: 11:00am to 10:30pm, Friday-Saturady: 11:00am to 11:00pm, Closed Wednesday",
+    "notes": [
+        "Known for its modern interpretation of classic dishes and its insistence on only using high quality fresh ingredients.",
+        "No-frills nook for hearty counter-serve or take-out Chinese standards such as chow mein."
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": "el-cortijo",
+    "name": "El Cortijo Taqueria",
+    "address": "189 Bank St. Burlington, VT 05401",
+    "coords": "[44.4780344, -73.2141866]",
+    "category": "Mexican Small Plates",
+    "price": "$$",
+    "phone": "497-1668",
+    "website": "http://www.cortijovt.com",
+    "hours": "Sunday: 10:00am to 10:00pm, Monday-Thursday: 11:00am to 10:00pm, Friday: 11:00am to 12:00am, Saturday: 10:00am to 12:00am",
+    "notes": [
+        "A member of the Farmhouse group.",
+        "Over 25 varieties of Tequila"
+    ]
+}

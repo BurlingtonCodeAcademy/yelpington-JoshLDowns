@@ -1,0 +1,16 @@
+{
+    "id": "august-first",
+    "name": "August First",
+    "address": "149 S Champlain St. Burlington, VT 05401",
+    "coords": "[44.4754408, -73.2195054]",
+    "category": "Comfort Food, Breakfast",
+    "price": "$$",
+    "phone": "540-0060",
+    "website": "http://augustfirstvt.com/",
+    "hours": "Monday-Saturday: 7:30am to 4:00pm",
+    "notes": [
+        "Homemade and from scratch breakfast and lunch made with natural ingredients!",
+        "Fantastic baked goods!",
+        "Catering, and Private Parties available!"
+    ]
+}

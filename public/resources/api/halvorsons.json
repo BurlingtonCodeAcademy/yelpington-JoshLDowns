@@ -1,0 +1,16 @@
+{
+    "id": "halvorsons",
+    "name": "Halvorson's",
+    "address": "16 Cherry St Burlington, VT 05401",
+    "coords": "[44.4798634,-73.2142833]",
+    "category": "Comfort Food, Burgers, Brunch",
+    "price": "$$",
+    "phone": "802-658-0278",
+    "website": "https://www.halvorsonsupstreetcafe.com/",
+    "hours": "Monday-Thursday: 11:00am to 9:00pm, Friday: 11:00am to 10:00pm, Saturday: 10:00am to 10:00pm, Sunday: 10:00am to 9:00pm",
+    "notes": [
+        "Owned and operated by the Halvorson family for over 30 years.",
+        "Beautiful back patio.",
+        "Juicy burgers, craft beer, and hearty comfort food in a cozy, family friendly atmosphere."
+    ]
+}

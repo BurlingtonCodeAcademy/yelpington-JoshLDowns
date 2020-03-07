@@ -1,0 +1,15 @@
+{
+    "id": "red-panda",
+    "name": "Red Panda",
+    "address": "161 Church Street, Burlington Vermont 05401",
+    "coords": "[44.4756528, -73.2148698]",
+    "category": "Indian Comfort Food",
+    "price": "$",
+    "phone": "448-3215",
+    "website": "http://thaidishesvt.com/",
+    "hours": "Wednesday - Friday: 11:30a.m. - 2p.m., 5:00p.m. - 9:00p.m., Saturday - Sunday 12:00 - 3:00, 4:00 - 8:30",
+    "notes": [
+        "Authentic Nepali, Indian, Indo-Chinese Cuisine",
+        "Our highly trained chefs pride themselves on creating a unique culinary experience combining traditional and asian fusion dishes."
+    ]
+}

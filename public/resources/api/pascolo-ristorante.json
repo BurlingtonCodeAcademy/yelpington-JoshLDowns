@@ -1,0 +1,14 @@
+{
+    "id": "pascolo-ristorante",
+    "name": "Pascolo Ristorante",
+    "address": "83 Church St. Burlington, VT 05401",
+    "category": "Italian",
+    "price": "$$$",
+    "coords": "[44.4780078, -73.2150247]",
+    "phone": "497-1613",
+    "website": "http://www.pascolovt.com",
+    "notes": [
+        "Authentic Southern Italian cuisine",
+        "A member of the Farmhouse Group"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": "farmhouse-grill",
+    "name": "Farmhouse Tap and Grill",
+    "address": "160 Bank St. Burlington, VT 05401",
+    "coords": "[44.478403, -73.2154937]",
+    "category": "Bar & Grill, Farm to Table",
+    "price": "$$",
+    "phone": "859-0888",
+    "website": "http://www.farmhousetg.com",
+    "hours": "Sunday: 10:00am to 11:00pm, Monday-Thursday: 11:00am to 11:00pm, Friday: 11:00am to 12:00am, Saturday: 10:00am to 12:00am",
+    "notes": [
+        "A member of the Farmhouse group",
+        "Localy sourced produce, and meat."
+    ]
+}
