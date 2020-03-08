@@ -18,7 +18,7 @@
     <div id='title'>
         <h1 id='home'>YelpIngton</h1>
     </div>
-    <div id='main-container'>
+    <div id='main-container' style='max-height: 1000px;'>
         <div id='restaurant-info'>
             <div id='info-head'>
                 <div id='rest-basic'>
@@ -29,6 +29,22 @@
             <div id='rest-detail'>
             </div>
             <div id='rest-comments'>
+                <div id='user-comments'>
+                    <div id='comment-scroll'>
+
+                    </div>
+                    <div id='list-fade'></div>
+                </div>
+                <div id='comment-form'>
+                    <div id='name-input'>
+                        <label for='user'>User Name:</label>
+                        <input type='text' name='user' id='user-name' class='text-input' />
+                    </div>
+                    <label for='comment'>Comment:</label>
+                    <textarea name='comment' id='comment-input' class='text-input'></textarea>
+                    <button type='button' id='comment-button'>Submit!</button>
+                    <button type='button' id='test-button'>Clear Comments</button>
+                </div>
             </div>
         </div>
     </div>

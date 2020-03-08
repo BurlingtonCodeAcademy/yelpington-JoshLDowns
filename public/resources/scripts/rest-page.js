@@ -4,12 +4,34 @@ let basicInfo = document.getElementById('rest-basic');
 let restDetail = document.getElementById('rest-detail');
 let restComments = document.getElementById('rest-comments');
 let home = document.getElementById('home');
+let userID = document.getElementById('user-name');
+let userComment = document.getElementById('comment-input');
+let commentButton = document.getElementById('comment-button');
+let userCommentScroll = document.getElementById('comment-scroll');
+
+let clearButton = document.getElementById('test-button');
+
+clearButton.addEventListener('click', ()=>{
+    window.localStorage.clear();
+    location.reload();
+})
 
 home.addEventListener('click', ()=> {
     window.location='/index.html';
 });
 
+if (window.localStorage.getItem(`${id}`)===null) {
+    window.localStorage.setItem(`${id}`, `<h3>There doesn't seem to be anything here!</h3>`);
+}
+
+window.addEventListener('load', ()=>{
+    userCommentScroll.innerHTML = window.localStorage.getItem(`${id}`);
+});
+
+commentButton.addEventListener('click', buildComments)
+
 function buildRestData() {
+    console.log(window.localStorage.getItem(`${id}`))
     fetch(`../resources/api/${id}.json`).then((data) => {
         return data.json()
     }).then((object) => {
@@ -50,4 +72,21 @@ function buildRestData() {
         restDetail.innerHTML+=`${infoHTML}`
 
     })
+}
+
+function buildComments() {
+    let commentHTML = ``;
+    let userName = userID.value;
+    let comment = userComment.value;
+
+    commentHTML = `<div class='single-comment'><h3>${userName}  says:</h3><p class='comment-list'>${comment}</p></div>`;
+
+    if (window.localStorage.getItem(`${id}`) === `<h3>There doesn't seem to be anything here!</h3>`) {
+        window.localStorage.setItem(`${id}`, commentHTML);
+    } else {
+        let currentHTML = window.localStorage.getItem(`${id}`);
+        window.localStorage.setItem(`${id}`, currentHTML + commentHTML);
+    }
+
+    location.reload();
 }

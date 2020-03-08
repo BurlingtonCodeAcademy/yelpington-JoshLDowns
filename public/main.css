@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    height: auto;
+    height: 100vh;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -20,9 +20,7 @@ body {
 
 #title {
     width: auto;
-    height: 20vh;
-    min-height: 100px;
-    max-height: 125px;
+    height: 125px;
     background-color: black;
     text-align: center;
 }
@@ -56,6 +54,7 @@ h3 {
 #main-container {
     display: flex;
     margin: 0 auto 0 auto;
+    max-height: 600px;
 }
 
 #restaurant-list {
@@ -63,6 +62,7 @@ h3 {
     width: 20vw;
     height: 40vw;
     min-height: 350px;
+    max-height: 600px;
     min-width: 125px;
     overflow: hidden;
     background-color: rgb(175, 175, 175);
@@ -70,9 +70,8 @@ h3 {
 
 #list-fade {
     pointer-events: none;
-    width: 20vw;
+    width: 100%;
     height: 50px;
-    min-width: 125px;
     z-index: 5;
     position: absolute;
     bottom: 0;
@@ -87,6 +86,7 @@ h3 {
     overflow: auto;
     width: Calc(20vw + 20px);
     height: 40vw;
+    max-height: 600px;
     min-height: 350px;
 }
 
@@ -161,6 +161,83 @@ h3 {
     padding: 1rem;
 }
 
+#rest-comments {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    min-width: 600px;
+    height: auto;
+}
+
+#user-comments {
+    position: relative;
+    width: Calc(60vw - 5px);
+    min-width: 595px;
+    height: 15vh;
+    min-height: 150px;
+    border: 2.5px solid rgb(65, 65, 65);
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+#comment-scroll {
+    text-align: center;
+    width: Calc(60vw + 20px);
+    min-width: 620px;
+    height: 15vh;
+    min-height: 150px;
+    overflow: auto;
+    padding-top: 1.5rem;
+}
+
+.comment-list {
+    font-family: fredoka one;
+    margin-left: 15px;
+    margin-right: 35px;
+}
+
+.single-comment {
+    border-bottom: 4px double rgb(65, 65, 65);
+}
+
+#comment-form {
+    width: 60vw;
+    min-width: 600px;
+    height: 20vh;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: fredoka one;
+    color: white;
+    background-color: black;
+    border-top: 4px double white;
+}
+
+.text-input {
+    font-family: fredoka one;
+}
+
+#user-name {
+    margin-left: 20px;
+}
+
+#comment-input {
+    width: 40vw;
+    height: 40px;
+}
+
+#comment-button {
+    width: 10vw;
+    min-width: 50px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: monoton;
+}
+
 .main-info {
     font-family: fredoka one;
     font-size: 1.1rem;
@@ -171,6 +248,7 @@ h3 {
     width: 40vw;
     min-width: 350px;
     min-height: 350px;
+    max-height: 600px;
 }
 
 #rest-map {
@@ -198,7 +276,8 @@ h3 {
     justify-content: space-around;
     width: auto;
     height: 30vh;
-    min-height: 150px;
+    min-height: 225px;
+    max-height: 250px;
     background-color: black;
     padding-top: 5px;
     border-top: 5px double white;
@@ -259,6 +338,16 @@ h3 {
     cursor: pointer;
 }
 
+#bottom-bar {
+    z-index: -10;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    max-height: 200px;
+    height: 25vw;
+    background-color: black;
+}
+
 @media (max-width: 768px) {
 
     html {
@@ -274,7 +363,7 @@ h3 {
     #title {
         width: auto;
         height: 10vh;
-        min-height: 75px;
+        min-height: 100px;
         min-width: 350px;
         background-color: black;
     }
@@ -298,6 +387,7 @@ h3 {
         margin: 0;
         width: auto;
         min-width: 350px;
+        max-height: 1000px;
         display: flex;
         flex-direction: column;
     }
@@ -392,6 +482,65 @@ h3 {
         padding: 1rem;
     }
     
+    #rest-comments {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        min-width: 250px;
+        max-width: 600px;
+        height: auto;
+    }
+    
+    #user-comments {
+        width: auto;
+        min-width: 250px;
+        height: 15vh;
+        min-height: 150px;
+        border: 2.5px solid rgb(65, 65, 65);
+        background-color: whitesmoke;
+        overflow: hidden;
+    }
+    
+    #comment-scroll {
+        text-align: center;
+        width: auto;
+        min-width: 250px;
+        height: 15vh;
+        min-height: 150px;
+        overflow: auto;
+        padding-top: 1rem;
+    }
+    
+    #comment-form {
+        width: auto;
+        min-width: 250px;
+        height: 20vh;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-family: fredoka one;
+        color: white;
+        background-color: black;
+        border-top: 4px double white;
+    }
+    
+    #comment-input {
+        width: 80vw;
+        height: 40px;
+    }
+    
+    #comment-button {
+        width: 25vw;
+        min-width: 250px;
+        border: 3px solid white;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        font-family: monoton;
+    }
+
     .rest-info {
         font-family: fredoka one;
         font-size: 1rem;
