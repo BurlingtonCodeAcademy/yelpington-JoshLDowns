@@ -15,8 +15,6 @@ function buildRestData() {
     }).then((object) => {
         return object;
     }).then((singleRest) => {
-        console.log(singleRest);
-        console.log(JSON.parse(singleRest.coords));
         let myMap = L.map('rest-map').setView(JSON.parse(singleRest.coords), 14.5);
 
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -37,11 +35,19 @@ function buildRestData() {
         let website = singleRest.website;
         let hours = singleRest.hours;
         let notes = singleRest.notes;
+        let infoHTML = `<ul>`;
 
         basicInfo.innerHTML+=`<h3>${name}</h3>`;
-        basicInfo.innerHTML+=`<p class='rest-info'>Phone: ${phone}</p>`;
-        basicInfo.innerHTML+=`<p class='rest-info'>Address: ${address}</p>`;
-        basicInfo.innerHTML+=`<p class='rest-info'>Hours: ${hours}</p>`;
+        basicInfo.innerHTML+=`<p class='rest-info'>Phone: ${phone}<br><br>Address: ${address}<br><br>Hours: ${hours}</p>`;
         basicInfo.innerHTML+=`<a href='${website}' target='_blank' class='rest-info'>Website</a>`;
+
+        singleRest.notes.forEach((note)=>{
+            infoHTML += `<li class='main-info'>${note}</li>`
+        })
+
+        infoHTML += `</ul>`
+
+        restDetail.innerHTML+=`${infoHTML}`
+
     })
 }

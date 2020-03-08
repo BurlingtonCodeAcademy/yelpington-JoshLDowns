@@ -22,6 +22,7 @@ body {
     width: auto;
     height: 20vh;
     min-height: 100px;
+    max-height: 125px;
     background-color: black;
     text-align: center;
 }
@@ -151,6 +152,20 @@ h3 {
     font-size: 1rem;
 }
 
+#rest-detail {
+    background-color: black;
+    width: Calc(60vw - 2rem);
+    min-width: Calc(600px - 2rem);
+    height: auto;
+    color: white;
+    padding: 1rem;
+}
+
+.main-info {
+    font-family: fredoka one;
+    font-size: 1.1rem;
+}
+
 #map {
     height: 40vw;
     width: 40vw;
@@ -161,7 +176,7 @@ h3 {
 #rest-map {
     height: 20vw;
     width: 20vw;
-    min-width: 200px;
+    min-width: 242px;
     min-height: 200px;
 }
 
@@ -366,6 +381,15 @@ h3 {
         overflow: auto;
         padding: 10px;
         border: 2.5px solid rgb(65, 65, 65)
+    }
+    
+    #rest-detail {
+        background-color: black;
+        width: auto;
+        min-width: 200px;
+        height: auto;
+        color: white;
+        padding: 1rem;
     }
     
     .rest-info {
