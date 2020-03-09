@@ -1,5 +1,7 @@
+/* Font Import */
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Monoton&display=swap');
 
+/* Background Image Import */
 html {
     background: url(resources/images/desktop-bg.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -10,6 +12,7 @@ html {
     z-index: 0;
 }
 
+/* Styling for non-mobile devices */
 body {
     height: 100vh;
     width: auto;
@@ -18,6 +21,7 @@ body {
     margin: 0;
 }
 
+/* Styling for titles and headers */
 #title {
     width: auto;
     height: 125px;
@@ -51,6 +55,7 @@ h3 {
     margin: 0;
 }
 
+/* Styling for home page content */
 #main-container {
     display: flex;
     margin: 0 auto 0 auto;
@@ -68,7 +73,8 @@ h3 {
     background-color: rgb(175, 175, 175);
 }
 
-#list-fade {
+
+#list-fade {  /* used on both pages */
     pointer-events: none;
     width: 100%;
     height: 50px;
@@ -118,6 +124,7 @@ h3 {
     border-bottom: 2.5px solid rgb(65, 65, 65);
 }
 
+/* Styling for Restaurant pages */
 #restaurant-info {
     display: flex;
     flex-direction: column;
@@ -243,6 +250,7 @@ h3 {
     font-size: 1.1rem;
 }
 
+/* Styling for maps */
 #map {
     height: 40vw;
     width: 40vw;
@@ -269,6 +277,7 @@ h3 {
     cursor: crosshair;
 }
 
+/* Styling for Footer */
 #footer {
     display: flex;
     flex-direction: column;
@@ -338,6 +347,7 @@ h3 {
     cursor: pointer;
 }
 
+/* Bottom Bar that keeps a full black at the base of page when scaling */
 #bottom-bar {
     z-index: -10;
     position: fixed;
@@ -348,6 +358,7 @@ h3 {
     background-color: black;
 }
 
+/* Styling for Mobile Devices */
 @media (max-width: 768px) {
 
     html {
@@ -360,6 +371,7 @@ h3 {
         z-index: 0;
     }
     
+    /* Styling for titles and headers */
     #title {
         width: auto;
         height: 10vh;
@@ -383,6 +395,7 @@ h3 {
         margin: 0;
     }
 
+    /* Styling for home page content */
     #main-container {
         margin: 0;
         width: auto;
@@ -445,6 +458,7 @@ h3 {
         border-bottom: 2.5px solid rgb(65, 65, 65);
     }
 
+    /* Styling for Restaurant pages */
     #restaurant-info {
         display: flex;
         flex-direction: column;
@@ -477,6 +491,7 @@ h3 {
         background-color: black;
         width: auto;
         min-width: 200px;
+        max-width: Calc(600px - 2rem);
         height: auto;
         color: white;
         padding: 1rem;
@@ -527,6 +542,7 @@ h3 {
     }
     
     #comment-input {
+        max-width: 500px;
         width: 80vw;
         height: 40px;
     }
@@ -546,6 +562,7 @@ h3 {
         font-size: 1rem;
     }
     
+    /* Styling for maps */
     #map {
         height: 100vw;
         width: 100vw;
@@ -562,6 +579,7 @@ h3 {
         margin: 0 auto 0 auto;
     }
     
+    /* Styling for footer */
     #footer {
         display: flex;
         flex-direction: column;
@@ -602,7 +620,7 @@ h3 {
     #main-email {
         background-color: whitesmoke;
         font-family: fredoka one;
-        width: 65vw;
+        width: 60vw;
     }
 
     #input-button {

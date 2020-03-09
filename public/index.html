@@ -2,51 +2,51 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel='stylesheet' href="main.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin="" />
-  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-    crossorigin=""></script>
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    <title>YelpIngton</title>
 </head>
 
 <body>
-  <div id='title'>
-    <h1>YelpIngton</h1>
-  </div>
-  <div id='main-container'>
-    <div id='restaurant-list'>
-      <div id='rest-scroll' class='scroll'>
-      </div>
-      <div id='list-fade'></div>
+    <div id='title'>
+       <h1>YelpIngton</h1>
     </div>
-    <div id='map'>
-
+    <div id='main-container'>
+        <div id='restaurant-list'>
+            <div id='rest-scroll' class='scroll'>
+            <!--Restaurant list is generated from the local api on load-->
+            </div>
+            <div id='list-fade'></div><!--Places fade at bottom of scrollable area-->
+        </div>
+        <div id='map'>
+        <!--Map is generated on load-->
+        </div>
     </div>
-  </div>
-  <div id='footer'>
-    <h2>Want Updates?</h2>
-    <div class='input' id='mail-list'>
-      <label for='email'>Sign up for our mailing list:</label>
-      <div id='input-button'>
-        <input type='text' name='email' id='main-email' class='text-input' />
-        <button type='button' id='list-button'>Go!</button>
-      </div>
+    <!--Footer is used for both pages-->
+    <div id='footer'>
+        <h2>Want Updates?</h2>
+        <!--Mailing list currently has no target-->
+        <div class='input' id='mail-list'>
+            <label for='email'>Sign up for our mailing list:</label>
+            <div id='input-button'>
+                <input type='text' name='email' id='main-email' class='text-input' />
+                <button type='button' id='list-button'>Go!</button>
+            </div>
+        </div>
+        <div id='footer-links'>
+            <!--Links currently have no targets-->
+            <img class='footer-image' src='../resources/images/footerlink-email.png' />
+            <img class='footer-image' src='../resources/images/footerlink-facebook.png' />
+            <img class='footer-image' src='../resources/images/footerlink-instagram.png' />
+            <img class='footer-image' src='../resources/images/footerlink-twitter.png' />
+        </div>
     </div>
-    <div id='footer-links'>
-      <img class='footer-image' src='../resources/images/footerlink-email.png' />
-      <img class='footer-image' src='../resources/images/footerlink-facebook.png' />
-      <img class='footer-image' src='../resources/images/footerlink-instagram.png' />
-      <img class='footer-image' src='../resources/images/footerlink-twitter.png' />
-    </div>
-  </div>
-  <div id='bottom-bar'></div>
-  <script src="resources/scripts/main.js"></script>
-  <script>buildMapItems()</script>
+    <div id='bottom-bar'></div>
+    <script src="resources/scripts/main.js"></script>
+    <script>buildMapItems()</script>
 
 </body>
 

@@ -46,6 +46,22 @@
         ]
     },
     {
+        "id": "beansies-bus",
+        "name": "Beansies Bus",
+        "address": "1 Sherman St. Burlington, VT 05401",
+        "coords": "[44.4796495,-73.2204706]",
+        "category": "Take-Out, Quick Bite",
+        "price": "$",
+        "phone": "802-343-7181",
+        "website": "http://beansies.com/",
+        "hours": "Monday-Saturday: 10:30am to 7:00pm Seasonally",
+        "notes": [
+            "Opened in 1944 in a retrofitted school bus, this seasonal restaurant sits at the northwest corner of Battery Park.",
+            "Cooking up incomparable fries and Michigans from April to September!",
+            "Winner of Best Food Truck in the Daysies for three straight years!"
+        ]
+    },
+    {
         "id": "city-market",
         "name": "City Market",
         "address": "82 S Winooski Ave. Burlington, VT 05401",
@@ -192,7 +208,7 @@
         "id": "istanbul-kebab-house",
         "name": "Istanbul Kebab House",
         "address": "175 Church St. Burlington, VT 05401",
-        "coords": "[44.4754297,-73.2148575]",
+        "coords": "[44.4754259, -73.2142202]",
         "category": "Comfort Food, Turkish, Mediterranean",
         "price": "$$",
         "phone": "802-857-5091",
@@ -296,7 +312,7 @@
         "address": "120 Church St., Burlington Vermont 05401",
         "category": "Comfort Food, Classic American Cuisine",
         "price": "$$$",
-        "coords": "[44.4754297,-73.2148575]",
+        "coords": "[44.4769943, -73.2146144]",
         "phone": "802-864-9800",
         "website": "https://sweetwatersvt.com/",
         "hours": "Sunday - Saturday: 11:30am - 11:00pm",
@@ -306,18 +322,48 @@
         ]
     },
     {
+        "id": "taco-gordo",
+        "name": "Taco Gordo",
+        "address": "208 N Winooski Ave., Burlington Vermont 05401",
+        "category": "Mexican, Small Plates, Quick Bite",
+        "price": "$$",
+        "coords": "[44.4845868, -73.21369]",
+        "phone": "802-540-0770",
+        "website": "https://tacogordovt.com/",
+        "hours": "Monday - Saturday: 5:00pm - 10:00pm",
+        "notes": [
+            "Recently featured on Diners, Drive-Ins and Dives.",
+            "Some of the best tacos in Burlington, in a friendly atmosphere."
+        ]
+    },
+    {
         "id": "the-friendly-toast",
         "name": "The Friendly Toast",
         "address": "86 St. Paul St., Burlington Vermont 05401",
         "category": "Comfort Food, Small Plates, Brunch",
         "price": "$$",
-        "coords": "[44.4754446,-73.2195054]",
+        "coords": "[44.4773683, -73.2160932]",
         "phone": "802-495-5491",
         "website": "https://thefriendlytoast.com/",
         "hours": "Sunday: 8:00am to 7:00pm, Monday-Tuesday: 8:00am to 2:30pm, Wednesday-Saturday: 8:00am to 9:00pm",
         "notes": [
             "Serves up creative meals in a truly unique atmosphere.",
             "Uses the freshest ingredients (locally sourced whenever possible) and are environmentally friendly. "
+        ]
+    },
+    {
+        "id": "the-skinny-pancake",
+        "name": "The Skinny Pancake",
+        "address": "60 Lake St Ste 1A, Burlington Vermont 05401",
+        "category": "Comfort Food, Live Music, Brunch",
+        "price": "$$",
+        "coords": "[44.4769319,-73.2200307]",
+        "phone": "802-540-0188",
+        "website": "https://skinnypancake.com/",
+        "hours": "Sunday-Wednesday: 8:00am to 8:00pm, Thursday-Saturday: 8:00am to 9:00pm",
+        "notes": [
+            "Local chain featuring breakfast, crepes, panini & live music in a casual, stylish space.",
+            "Sources food locally, and is very community driven. "
         ]
     }
 ]
