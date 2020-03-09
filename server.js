@@ -5,7 +5,9 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const port = process.env.PORT || 5000;
+//array to make sure restaurant page is available
 let restArray = ["ahli-babas-kabob", "american-flatbread", "august-first", "beansies-bus", "city-market", "el-cortijo", "farmhouse-grill", "fu-da", "gaku-ramen", "halvorsons", "hen-of-the-wood", "henrys-diner", "honey-road", "istanbul-kebab-house", "kountry-kart-deli", "leunigs-bistro", "mr-mikes", "pascolo-ristorante", "red-panda", "single-pebble", "sweetwaters", "taco-gordo", "the-friendly-toast", "the-skinny-pancake"]
+
 //serving the public folder
 app.use(express.static('public'));
 
