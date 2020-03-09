@@ -14,7 +14,6 @@ app.use(express.static('public'));
 //routs to restaurant page with the id of the restaurant
 app.get('/rest-page/:id', (req, res) => {
     if (restArray.includes(req.params.id)) {
-    console.log('working')
     res.sendFile(path.resolve(`public/rest-page.html`));
     } else {
         res.sendFile(path.resolve(`public/404.html`));
@@ -23,7 +22,6 @@ app.get('/rest-page/:id', (req, res) => {
 
 //404 handler
 app.get('/*', (req, res) => {
-    console.log('error')
     res.sendFile(path.resolve(`public/404.html`));
 });
 
