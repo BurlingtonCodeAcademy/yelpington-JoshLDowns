@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="../resources/styles/main.css">
+    <title>Oops!</title>
+</head>
+
+<body style="background-color: black;">
+    <div id='error-title' style='align-self: center; margin-top: auto; margin-bottom: auto; text-align: center;'>
+        <h1>404</h1>
+        <h3 style='color: white;'>It  looks  like  you  are  lost!</h3>
+        <br>
+        <h3 id='home' style='color: rgb(0, 105, 240);'>Let's  go  Home</h3>
+    </div>
+    <script>
+        let home = document.getElementById('home');
+        home.addEventListener('click', () => {
+            window.location = '../index.html'
+        });
+    </script>
+</body>
+</html>
