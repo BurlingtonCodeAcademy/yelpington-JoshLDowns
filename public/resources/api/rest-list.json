@@ -1,0 +1,374 @@
+[
+    {
+        "id": "ahli-babas-kabob",
+        "name": "Ahli Baba's Kabob Shop",
+        "address": "163 Main St. Burlington, VT 05401",
+        "coords": "[44.4758073, -73.2150059]",
+        "category": "Mediterranean Take Out",
+        "price": "$",
+        "phone": "862-5752",
+        "website": "http://places.singleplatform.com/ahli-babas-kabob-shop/menu",
+        "hours": "9AM-3AM Everyday",
+        "notes": [
+            "Nice little shop that serves delicious street food."
+        ]
+    },
+    {
+        "id": "american-flatbread",
+        "name": "American Flatbread",
+        "address": "115 St Paul St Burlington, VT 05401",
+        "coords": "[44.4766084, -73.2164283]",
+        "category": "Comfort Food",
+        "price": "$$",
+        "phone": "861-2999",
+        "website": "http://americanflatbread.com/restaurants/burlington-vt/",
+        "hours": "Monday - Friday: 11:30 a.m. - 3:00 p.m. & 5:00 p.m. - 11:30 p.m. Saturday - Sunday: 11:30 a.m. - 11:30 p.m.",
+        "notes": [
+            "Great pizza doing good for the community!",
+            "No reservations, first come first served seating.",
+            "Lively choice for craft beer & inventive wood-fired pizzas loaded with organic, seasonal toppings."
+        ]
+    },
+    {
+        "id": "august-first",
+        "name": "August First",
+        "address": "149 S Champlain St. Burlington, VT 05401",
+        "coords": "[44.4754408, -73.2195054]",
+        "category": "Comfort Food, Breakfast",
+        "price": "$$",
+        "phone": "540-0060",
+        "website": "http://augustfirstvt.com/",
+        "hours": "Monday-Saturday: 7:30am to 4:00pm",
+        "notes": [
+            "Homemade and from scratch breakfast and lunch made with natural ingredients!",
+            "Fantastic baked goods!",
+            "Catering, and Private Parties available!"
+        ]
+    },
+    {
+        "id": "beansies-bus",
+        "name": "Beansies Bus",
+        "address": "1 Sherman St. Burlington, VT 05401",
+        "coords": "[44.4796495,-73.2204706]",
+        "category": "Take-Out, Quick Bite",
+        "price": "$",
+        "phone": "802-343-7181",
+        "website": "http://beansies.com/",
+        "hours": "Monday-Saturday: 10:30am to 7:00pm Seasonally",
+        "notes": [
+            "Opened in 1944 in a retrofitted school bus, this seasonal restaurant sits at the northwest corner of Battery Park.",
+            "Cooking up incomparable fries and Michigans from April to September!",
+            "Winner of Best Food Truck in the Daysies for three straight years!"
+        ]
+    },
+    {
+        "id": "city-market",
+        "name": "City Market",
+        "address": "82 S Winooski Ave. Burlington, VT 05401",
+        "coords": "[44.4780993, -73.2127485]",
+        "category": "Grocery Store",
+        "price": "$-$$$",
+        "phone": "861-9700",
+        "website": "http://www.citymarket.coop",
+        "hours": "7AM-11PM Everyday",
+        "notes": [
+            "Delicious salad bar, prepared hot and cold foods, plus sandwiches."
+        ]
+    },
+    {
+        "id": "el-cortijo",
+        "name": "El Cortijo Taqueria",
+        "address": "189 Bank St. Burlington, VT 05401",
+        "coords": "[44.4780344, -73.2141866]",
+        "category": "Mexican Small Plates",
+        "price": "$$",
+        "phone": "497-1668",
+        "website": "http://www.cortijovt.com",
+        "hours": "Sunday: 10:00am to 10:00pm, Monday-Thursday: 11:00am to 10:00pm, Friday: 11:00am to 12:00am, Saturday: 10:00am to 12:00am",
+        "notes": [
+            "A member of the Farmhouse group.",
+            "Over 25 varieties of Tequila"
+        ]
+    },
+    {
+        "id": "farmhouse-grill",
+        "name": "Farmhouse Tap and Grill",
+        "address": "160 Bank St. Burlington, VT 05401",
+        "coords": "[44.478403, -73.2154937]",
+        "category": "Bar & Grill, Farm to Table",
+        "price": "$$",
+        "phone": "859-0888",
+        "website": "http://www.farmhousetg.com",
+        "hours": "Sunday: 10:00am to 11:00pm, Monday-Thursday: 11:00am to 11:00pm, Friday: 11:00am to 12:00am, Saturday: 10:00am to 12:00am",
+        "notes": [
+            "A member of the Farmhouse group",
+            "Localy sourced produce, and meat."
+        ]
+    },
+    {
+        "id": "fu-da",
+        "name": "Fu Da Chinese Restaurant",
+        "address": "187 Pearl St. #1, Burlington, VT 05401",
+        "coords": "[44.4803494,-73.2137241]",
+        "category": "Chinese, Take-Out",
+        "price": "$",
+        "phone": "802-864-3883",
+        "website": "https://www.fudaburlington.com",
+        "hours": "Sunday: 12:00pm to 10:30pm, Monday-Tuesday & Thursday: 11:00am to 10:30pm, Friday-Saturady: 11:00am to 11:00pm, Closed Wednesday",
+        "notes": [
+            "Known for its modern interpretation of classic dishes and its insistence on only using high quality fresh ingredients.",
+            "No-frills nook for hearty counter-serve or take-out Chinese standards such as chow mein."
+        ]
+    },
+    {
+        "id": "gaku-ramen",
+        "name": "Gaku Ramen",
+        "address": "144 Church Street, Burlington Vermont 05401",
+        "coords": "[44.476387, -73.2144768]",
+        "category": "Ramen, Comfort Food",
+        "price": "$$",
+        "phone": "497-3050",
+        "website": "http://gakuramen.com/",
+        "hours": "Sunday – Thursday: 11a.m. – 10p.m.",
+        "notes": [
+            "Authentic Japanese cuisine in the Green Mountains.",
+            "Huge bowls of ramen, come hungry!",
+            "Decent potstickers, nothing special really."
+        ]
+    },
+    {
+        "id": "halvorsons",
+        "name": "Halvorson's",
+        "address": "16 Cherry St Burlington, VT 05401",
+        "coords": "[44.4798634,-73.2142833]",
+        "category": "Comfort Food, Burgers, Brunch",
+        "price": "$$",
+        "phone": "802-658-0278",
+        "website": "https://www.halvorsonsupstreetcafe.com/",
+        "hours": "Monday-Thursday: 11:00am to 9:00pm, Friday: 11:00am to 10:00pm, Saturday: 10:00am to 10:00pm, Sunday: 10:00am to 9:00pm",
+        "notes": [
+            "Owned and operated by the Halvorson family for over 30 years.",
+            "Beautiful back patio.",
+            "Juicy burgers, craft beer, and hearty comfort food in a cozy, family friendly atmosphere."
+        ]
+    },
+    {
+        "id": "hen-of-the-wood",
+        "name": "Hen of The Wood",
+        "address": "55 Cherry St Burlington, VT 05401",
+        "coords": "[44.4790471, -73.2195496]",
+        "category": "Casual Fine Dining, Craft Cocktails",
+        "price": "$$$",
+        "phone": "802-540-0534",
+        "website": "http://www.henofthewood.com",
+        "hours": "Sunday - Saturday: 4:00p.m. - 11:00p.m.",
+        "notes": [
+            "$1 oyster happy hour 4pm-5pm.",
+            "$23 dollar brocolli to die for.",
+            "boho vermont farm chic with a cozy ambiance.",
+            "The flavors of the food and strength of the cocktails makes up for the snotty first impression and expensive prices.",
+            "Intimate eatery featuring daily menus of local, seasonal fare, craft cocktails & understated decor."
+        ]
+    },
+    {
+        "id": "henrys-diner",
+        "name": "Henry's Diner",
+        "address": "155 Bank Street, Burlington Vermont 05401",
+        "coords": "[44.4780127, -73.215699]",
+        "category": "Old School Diner",
+        "price": "$",
+        "phone": "862-9010",
+        "website": "http://www.henofthewood.com",
+        "hours": "Sunday - Saturday: 6a.m. - 4p.m.",
+        "notes": [
+            "Voted the best diner in Vermont by American Express.",
+            "A great place to enjoy a meal with family and friends!",
+            "Breakfast all day!"
+        ]
+    },
+    {
+        "id": "honey-road",
+        "name": "Honey Road",
+        "address": "156 Church Street, Burlington Vermont 05401",
+        "coords": "[44.4761196,-73.2144323]",
+        "category": "Mediterranean Small Plates",
+        "price": "$$$",
+        "phone": "802-497-2145",
+        "website": "https://www.honeyroadrestaurant.com/",
+        "hours": "Sunday - Saturday: 4:00pm - 10:00pm",
+        "notes": [
+            "$13 dollar brocolli to die for.",
+            "Recommended for the not so hungry who like to share food.",
+            "Hummus is Yummus!",
+            "Good cocktails, great desserts.",
+            "Rad pink neon sign."
+        ]
+    },
+    {
+        "id": "istanbul-kebab-house",
+        "name": "Istanbul Kebab House",
+        "address": "175 Church St. Burlington, VT 05401",
+        "coords": "[44.4754259, -73.2142202]",
+        "category": "Comfort Food, Turkish, Mediterranean",
+        "price": "$$",
+        "phone": "802-857-5091",
+        "website": "http://www.instanbulkebabhousevt.com",
+        "hours": "Sunday-Thursday: 11:00am to 9:00pm, Friday-Saturday: 11:00am to 10:00pm",
+        "notes": [
+            "Burlington's only rooftop dining!",
+            "Family-run restaurant & bar serving Turkish-Mediterranean fare in a bright, multi-level space."
+        ]
+    },
+    {
+        "id": "kountry-kart-deli",
+        "name": "Kountry Kart Deli",
+        "address": "155 Main St. Burlington, VT 05401",
+        "coords": "[44.4756979, -73.2151394]",
+        "category": "Take Out Sandwiches & Salads",
+        "price": "$",
+        "phone": "864-4408",
+        "website": "http://www.kountrykartdeli.com",
+        "hours": "Sunda-Saturday: 6:30am to 3:00am",
+        "notes": [
+            "Home of the world famous Shiner!"
+        ]
+    },
+    {
+        "id": "leunigs-bistro",
+        "name": "Leunig's Bistro",
+        "address": "115 Church Street, Burlington Vermont 05401",
+        "coords": "[44.4772226, -73.2149735]",
+        "category": "French Bistro",
+        "price": "$$$",
+        "phone": "863-3759",
+        "website": "https://www.leunigsbistro.com/",
+        "hours": "Mon-Thurs 8a.m. - 6p.m., Fri and Sat 8a.m. - 10p.m.,  Sunday 8p.m. - 6p.m.",
+        "notes": [
+            "Leunig's Bistro is one of the oldest, continually operating restaurants in downtown Burlington.",
+            "A French bistro & bar, serving lunch, brunch and dinner."
+        ]
+    },
+    {
+        "id": "mr-mikes",
+        "name": "Mr. Mike's",
+        "address": "206 Main St. Burlington, VT 05401",
+        "coords": "[44.4761868, -73.2134457]",
+        "category": "Late Night Pizza",
+        "price": "$",
+        "phone": "864-0072",
+        "hours": "Sunday - Wednesday: 11:00 a.m. - 1:00 a.m. Thursday - Saturday: 11:00 a.m. - 3 a.m.",
+        "website": "https://www.facebook.com/Mr-Mikes-Pizza-93016597656/",
+        "notes": [
+            "The greatest pizza around! call 864-0072 or order online for free delivery!"
+        ]
+    },
+    {
+        "id": "pascolo-ristorante",
+        "name": "Pascolo Ristorante",
+        "address": "83 Church St. Burlington, VT 05401",
+        "category": "Italian",
+        "price": "$$$",
+        "coords": "[44.4780078, -73.2150247]",
+        "phone": "497-1613",
+        "website": "http://www.pascolovt.com",
+        "notes": [
+            "Authentic Southern Italian cuisine",
+            "A member of the Farmhouse Group"
+        ]
+    },
+    {
+        "id": "red-panda",
+        "name": "Red Panda",
+        "address": "161 Church Street, Burlington Vermont 05401",
+        "coords": "[44.4756528, -73.2148698]",
+        "category": "Indian Comfort Food",
+        "price": "$",
+        "phone": "448-3215",
+        "website": "http://thaidishesvt.com/",
+        "hours": "Wednesday - Friday: 11:30a.m. - 2p.m., 5:00p.m. - 9:00p.m., Saturday - Sunday 12:00 - 3:00, 4:00 - 8:30",
+        "notes": [
+            "Authentic Nepali, Indian, Indo-Chinese Cuisine",
+            "Our highly trained chefs pride themselves on creating a unique culinary experience combining traditional and asian fusion dishes."
+        ]
+    },
+    {
+        "id": "single-pebble",
+        "name": "A Single Pebble",
+        "address": "133 Bank St., Burlington Vermont 05401",
+        "category": "Family Style Chinese",
+        "price": "$$$",
+        "coords": "[44.4779646, -73.2167659]",
+        "phone": "865-5200",
+        "website": "https://asinglepebble.com/",
+        "hours": "Sunday - Saturday: 5p.m. - close",
+        "notes": [
+            "Great asian food, a bit on the pricey side, but worth it.",
+            "Open for lunch on Fridays."
+        ]
+    },
+    {
+        "id": "sweetwaters",
+        "name": "Sweetwaters",
+        "address": "120 Church St., Burlington Vermont 05401",
+        "category": "Comfort Food, Classic American Cuisine",
+        "price": "$$$",
+        "coords": "[44.4769943, -73.2146144]",
+        "phone": "802-864-9800",
+        "website": "https://sweetwatersvt.com/",
+        "hours": "Sunday - Saturday: 11:30am - 11:00pm",
+        "notes": [
+            "Classy, casual standby for elevated takes on American faves, with a roomy patio for people-watching.",
+            "Sweetwaters has served locals and visitors alike for over 35 years. "
+        ]
+    },
+    {
+        "id": "taco-gordo",
+        "name": "Taco Gordo",
+        "address": "208 N Winooski Ave., Burlington Vermont 05401",
+        "category": "Mexican, Small Plates, Quick Bite",
+        "price": "$$",
+        "coords": "[44.4845868, -73.21369]",
+        "phone": "802-540-0770",
+        "website": "https://tacogordovt.com/",
+        "hours": "Monday - Saturday: 5:00pm - 10:00pm",
+        "notes": [
+            "Recently featured on Diners, Drive-Ins and Dives.",
+            "Some of the best tacos in Burlington, in a friendly atmosphere."
+        ]
+    },
+    {
+        "id": "the-friendly-toast",
+        "name": "The Friendly Toast",
+        "address": "86 St. Paul St., Burlington Vermont 05401",
+        "category": "Comfort Food, Small Plates, Brunch",
+        "price": "$$",
+        "coords": "[44.4773683, -73.2160932]",
+        "phone": "802-495-5491",
+        "website": "https://thefriendlytoast.com/",
+        "hours": "Sunday: 8:00am to 7:00pm, Monday-Tuesday: 8:00am to 2:30pm, Wednesday-Saturday: 8:00am to 9:00pm",
+        "notes": [
+            "Serves up creative meals in a truly unique atmosphere.",
+            "Uses the freshest ingredients (locally sourced whenever possible) and are environmentally friendly. "
+        ]
+    },
+    {
+        "id": "the-skinny-pancake",
+        "name": "The Skinny Pancake",
+        "address": "60 Lake St Ste 1A, Burlington Vermont 05401",
+        "category": "Comfort Food, Live Music, Brunch",
+        "price": "$$",
+        "coords": "[44.4769319,-73.2200307]",
+        "phone": "802-540-0188",
+        "website": "https://skinnypancake.com/",
+        "hours": "Sunday-Wednesday: 8:00am to 8:00pm, Thursday-Saturday: 8:00am to 9:00pm",
+        "notes": [
+            "Local chain featuring breakfast, crepes, panini & live music in a casual, stylish space.",
+            "Sources food locally, and is very community driven. "
+        ]
+    }
+]
+
+
+
+
+

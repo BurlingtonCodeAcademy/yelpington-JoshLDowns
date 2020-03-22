@@ -1,0 +1,16 @@
+{
+    "id": "beansies-bus",
+    "name": "Beansies Bus",
+    "address": "1 Sherman St. Burlington, VT 05401",
+    "coords": "[44.4796495,-73.2204706]",
+    "category": "Take-Out, Quick Bite",
+    "price": "$",
+    "phone": "802-343-7181",
+    "website": "http://beansies.com/",
+    "hours": "Monday-Saturday: 10:30am to 7:00pm Seasonally",
+    "notes": [
+        "Opened in 1944 in a retrofitted school bus, this seasonal restaurant sits at the northwest corner of Battery Park.",
+        "Cooking up incomparable fries and Michigans from April to September!",
+        "Winner of Best Food Truck in the Daysies for three straight years!"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "kountry-kart-deli",
+    "name": "Kountry Kart Deli",
+    "address": "155 Main St. Burlington, VT 05401",
+    "coords": "[44.4756979, -73.2151394]",
+    "category": "Take Out Sandwiches & Salads",
+    "price": "$",
+    "phone": "864-4408",
+    "website": "http://www.kountrykartdeli.com",
+    "hours": "Sunda-Saturday: 6:30am to 3:00am",
+    "notes": [
+        "Home of the world famous Shiner!"
+    ]
+}

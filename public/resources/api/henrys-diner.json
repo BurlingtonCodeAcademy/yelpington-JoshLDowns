@@ -1,0 +1,16 @@
+{
+    "id": "henrys-diner",
+    "name": "Henry's Diner",
+    "address": "155 Bank Street, Burlington Vermont 05401",
+    "coords": "[44.4780127, -73.215699]",
+    "category": "Old School Diner",
+    "price": "$",
+    "phone": "862-9010",
+    "website": "http://www.henofthewood.com",
+    "hours": "Sunday - Saturday: 6a.m. - 4p.m.",
+    "notes": [
+        "Voted the best diner in Vermont by American Express.",
+        "A great place to enjoy a meal with family and friends!",
+        "Breakfast all day!"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": "istanbul-kebab-house",
+    "name": "Istanbul Kebab House",
+    "address": "175 Church St. Burlington, VT 05401",
+    "coords": "[44.4754259, -73.2142202]",
+    "category": "Comfort Food, Turkish, Mediterranean",
+    "price": "$$",
+    "phone": "802-857-5091",
+    "website": "http://www.instanbulkebabhousevt.com",
+    "hours": "Sunday-Thursday: 11:00am to 9:00pm, Friday-Saturday: 11:00am to 10:00pm",
+    "notes": [
+        "Burlington's only rooftop dining!",
+        "Family-run restaurant & bar serving Turkish-Mediterranean fare in a bright, multi-level space."
+    ]
+}

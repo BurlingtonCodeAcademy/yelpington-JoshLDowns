@@ -1,0 +1,15 @@
+{
+    "id": "taco-gordo",
+    "name": "Taco Gordo",
+    "address": "208 N Winooski Ave., Burlington Vermont 05401",
+    "category": "Mexican, Small Plates, Quick Bite",
+    "price": "$$",
+    "coords": "[44.4845868, -73.21369]",
+    "phone": "802-540-0770",
+    "website": "https://tacogordovt.com/",
+    "hours": "Monday - Saturday: 5:00pm - 10:00pm",
+    "notes": [
+        "Recently featured on Diners, Drive-Ins and Dives.",
+        "Some of the best tacos in Burlington, in a friendly atmosphere."
+    ]
+}

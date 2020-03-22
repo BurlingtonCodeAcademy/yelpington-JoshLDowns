@@ -1,0 +1,15 @@
+{
+    "id": "the-skinny-pancake",
+    "name": "The Skinny Pancake",
+    "address": "60 Lake St Ste 1A, Burlington Vermont 05401",
+    "category": "Comfort Food, Live Music, Brunch",
+    "price": "$$",
+    "coords": "[44.4769319,-73.2200307]",
+    "phone": "802-540-0188",
+    "website": "https://skinnypancake.com/",
+    "hours": "Sunday-Wednesday: 8:00am to 8:00pm, Thursday-Saturday: 8:00am to 9:00pm",
+    "notes": [
+        "Local chain featuring breakfast, crepes, panini & live music in a casual, stylish space.",
+        "Sources food locally, and is very community driven. "
+    ]
+}
